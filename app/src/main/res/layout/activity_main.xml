@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context="com.example.codetribe.quizzapp.MainActivity">
+
+    <Button
+        android:id="@+id/btnlove"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="lovelife"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/btnfuture"
+        android:layout_alignLeft="@+id/btnfuture"
+        android:layout_alignStart="@+id/btnfuture" />
+
+    <Button
+        android:id="@+id/btnfuture"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="general"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/welcome"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Welcome to Quiz App" />
+
+</RelativeLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/ff"
+    tools:context="com.example.codetribe.quizzapp.quiz1">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+            <RadioGroup
+                android:layout_margin="10dp"
+                android:layout_width="381dp"
+                android:id="@+id/grp1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"
+                    android:text="What makes a relationship stronger?" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Love" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Trust" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Communication" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:text="Cheating" />
+                  </RadioGroup>
+            <RadioGroup
+                android:id="@+id/grp2"
+                android:layout_margin="10dp"
+                android:layout_width="381dp"
+                android:layout_below="@+id/grp1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:text="Who is the head of the family?" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:text="Woman" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:text="Man" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:text="Children" />
+                </RadioGroup>
+            <RadioGroup
+                android:id="@+id/grp3"
+                android:layout_margin="10dp"
+                android:layout_width="381dp"
+                android:layout_below="@+id/grp2"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:text="what diffines a married man/woman" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:text="Commitment" />
+
+                <RadioButton
+                android:id="@+id/radioButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:text="Ring" />
+                </RadioGroup>
+            <RadioGroup
+                android:id="@+id/grp4"
+                android:layout_width="381dp"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/grp3"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:text="Is your partner your dream wife/husband?" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:text="No" />
+            </RadioGroup>
+
+       <Button
+           android:id="@+id/button"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/grp4"
+           android:layout_margin="15dp"
+           android:text="SCORE" />
+
+
+   </RelativeLayout>
+
+</ScrollView>
